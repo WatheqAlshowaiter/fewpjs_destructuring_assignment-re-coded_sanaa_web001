@@ -65,15 +65,8 @@ const [r, o, y, g, b, i, v] = [
 ];
 
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
-const [, , , , , indig] = [
-  "red",
-  "orange",
-  "yellow",
-  "green",
-  "blue",
-  "indigo",
-  "violet",
-];
+//     1) Array: uses destructuring to declare Indigo using indg
+const [, , , , , indig] = colors
 
 // Objects
 
