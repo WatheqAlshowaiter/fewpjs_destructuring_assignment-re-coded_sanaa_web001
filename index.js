@@ -54,15 +54,7 @@ const [red, orange, yellow, green, blue, indigo, violet] = [
 ];
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
-const [r, o, y, g, b, i, v] = [
-  "red",
-  "orange",
-  "yellow",
-  "green",
-  "blue",
-  "indigo",
-  "violet",
-];
+const [r, o, y, g, b, i, v] = colors;
 
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
 //     1) Array: uses destructuring to declare Indigo using indg
