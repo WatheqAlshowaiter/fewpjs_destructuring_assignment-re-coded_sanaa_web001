@@ -58,12 +58,12 @@ const [r, o, y, g, b, i, v] = colors;
 
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
 //     1) Array: uses destructuring to declare Indigo using indg
-const [, , , , , indg] = colors
+const [, , , , , indg] = colors;
 
 // Objects
 
 // 7. Use destructuring to assign all appropriate variables using the keys as the variable names
-const { name, color, songs, job, partner } = muppet;
+const { name, color, song, job, partner } = muppet;
 // console.log(name)
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 const {song_2, song_4, song_1, song_3} = k_muppet.k_album.the_muppet_movie;
