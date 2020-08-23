@@ -75,6 +75,8 @@ const { name, color, songs, job, partner } = muppet;
 // console.log(name)
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 const {song_2, song_4} = k_muppet.k_album;
-const {kjob, k_partner} = k_muppet;
+const {kjob, k_partner, k_color} = k_muppet;
 
 
+// 1) Object: uses destructuring to assign all appropriate variables using thekeys as the variable names
+// 2) Object: uses destructuring to assign Kermit's color, songs 2 and 4, and Kermit's job and partner
